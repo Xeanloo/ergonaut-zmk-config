@@ -14,5 +14,8 @@ manifest:
         - name: ergonautkb-zmk-module
           remote: ergonautkb
           revision: main
+        - name: prospector-zmk-module # <--- and these
+          remote: carrefinho # <---
+          revision: main
     self:
         path: config
