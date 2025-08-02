@@ -1,13 +1,12 @@
 include:
     - board: seeeduino_xiao_ble
       shield: ergonaut_one_left
-      cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=y
+      cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     - board: seeeduino_xiao_ble
       shield: ergonaut_one_right
-      cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=y
+      cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
     - board: seeeduino_xiao_ble
       shield: settings_reset
     - board: seeeduino_xiao_ble
       shield: ergonaut_dongle dongle_screen
-      cmake-args: -DCONFIG_ZMK_STUDIO=y
       artifact-name: dongle-screen

@@ -24,7 +24,6 @@
                                                      &trans        &trans     &trans      &trans      &trans     &trans
             >;
         };
-
         raise_layer {
             display-name = "NUM";
             bindings = <
