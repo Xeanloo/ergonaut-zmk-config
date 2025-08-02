@@ -8,5 +8,6 @@ include:
     - board: seeeduino_xiao_ble
       shield: settings_reset
     - board: seeeduino_xiao_ble
-      shield: ergonaut_dongle prospector_adapter
+      shield: ergonaut_dongle dongle_screen
       cmake-args: -DCONFIG_ZMK_STUDIO=y
+      artifact-name: dongle-screen
