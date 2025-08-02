@@ -5,19 +5,14 @@
  */
 
 #include "ergonaut_one.dtsi"
-#import "ergonaut_one.dtsi"
-
-&physical_layout0 {
-    transform = <&default_transform>;
-};
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &physical_layout0;
+        wakeup-source;
     };
 
-    mock_kscan: mock_kscan_0 {
+    mock_kscan: kscan_1 {
         compatible = "zmk,kscan-mock";
         columns = <0>;
         rows = <0>;
