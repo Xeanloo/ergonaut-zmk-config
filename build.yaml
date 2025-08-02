@@ -12,7 +12,7 @@ include:
     - board: seeeduino_xiao_ble
       shield: settings_reset
     - board: seeeduino_xiao_ble
-      # shield: ergonaut_one_dongle dongle_screen
-      shield: ergonaut_one_dongle prospector_adapter
+      shield: ergonaut_one_dongle dongle_screen
+      # shield: ergonaut_one_dongle prospector_adapter
       snippet: zmk-usb-logging
       # cmake-args: -DCONFIG_ZMK_STUDIO=y
