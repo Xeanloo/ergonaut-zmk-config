@@ -6,21 +6,6 @@
 
 #include "ergonaut_one.dtsi"
 
-/ {
-    chosen {
-        zmk,kscan = &mock_kscan;
-    };
-
-    mock_kscan: mock_kscan_0 {
-        compatible = "zmk,kscan-mock";
-        columns = <0>;
-        rows = <0>;
-        events = <0>;
-    };
-};
-
-#import "ergonaut_one.dtsi"
-
 &physical_layout0 {
     transform = <&default_transform>;
 };
@@ -29,5 +14,12 @@
     chosen {
         zmk,kscan = &mock_kscan;
         zmk,physical-layout = &physical_layout0;
+    };
+
+    mock_kscan: mock_kscan_0 {
+        compatible = "zmk,kscan-mock";
+        columns = <0>;
+        rows = <0>;
+        events = <0>;
     };
 };
