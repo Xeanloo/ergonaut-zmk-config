@@ -19,7 +19,7 @@
     };
 };
 
-#import "my_keyboard-layouts.dtsi"
+#import "ergonaut_one.dtsi"
 
 &physical_layout0 {
     transform = <&default_transform>;
