@@ -19,4 +19,3 @@ include:
       shield: settings_reset
     - board: seeeduino_xiao_ble
       shield: ergonaut_dongle prospector_adapter
-      cmake-args: -DCONFIG_ZMK_STUDIO=y
