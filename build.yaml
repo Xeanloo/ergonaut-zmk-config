@@ -8,5 +8,5 @@ include:
     - board: seeeduino_xiao_ble
       shield: settings_reset
     - board: seeeduino_xiao_ble
-      shield: ergonaut_dongle dongle_screen
-      artifact-name: dongle-screen
+      # shield: ergonaut_dongle dongle_screen
+      shield: ergonaut_dongle prospector_adapter
