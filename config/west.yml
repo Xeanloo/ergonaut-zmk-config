@@ -6,8 +6,8 @@ manifest:
           url-base: https://github.com/ergonautkb
         # - name: janpfischer
         # url-base: https://github.com/janpfischer
-        - name: tokyo2006 # <--- add this
-          url-base: https://github.com/tokyo2006
+        - name: Xeanloo # <--- add this
+          url-base: https://github.com/Xeanloo
     projects:
         - name: zmk
           remote: zmkfirmware
@@ -20,7 +20,7 @@ manifest:
         #   remote: janpfischer
         #   revision: main
         - name: prospector-zmk-module # <--- and these
-          remote: tokyo2006 # <---
+          remote: Xeanloo # <---
           revision: main
     self:
         path: config
