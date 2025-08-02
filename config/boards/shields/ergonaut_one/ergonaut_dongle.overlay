@@ -5,11 +5,16 @@
  */
 
 #include "ergonaut_one.dtsi"
+#include "ergonaut_one_layout.dtsi"
+
+&ergonaut_one_layout {
+    transform = <&default_transform>;
+};
 
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &default_layout;
+        zmk,physical-layout = &ergonaut_one_layout;
     };
 
     mock_kscan: mock_kscan_0 {
