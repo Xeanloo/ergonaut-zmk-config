@@ -1,13 +1,15 @@
 include:
     - board: seeeduino_xiao_ble
       shield: ergonaut_one_left
-      cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=y
+      cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+      # cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=y
     - board: seeeduino_xiao_ble
       shield: ergonaut_one_right
-      cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=y
+      cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+      # cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n -DCONFIG_ZMK_STUDIO=y
     - board: seeeduino_xiao_ble
       shield: settings_reset
     - board: seeeduino_xiao_ble
-      # shield: ergonaut_dongle dongle_screen
-      shield: ergonaut_dongle prospector_adapter
-      cmake-args: -DCONFIG_ZMK_STUDIO=y
+      # shield: ergonaut_one_dongle dongle_screen
+      shield: ergonaut_one_dongle prospector_adapter
+      # cmake-args: -DCONFIG_ZMK_STUDIO=y
