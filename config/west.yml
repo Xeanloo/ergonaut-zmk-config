@@ -2,22 +2,20 @@ manifest:
     remotes:
         - name: zmkfirmware
           url-base: https://github.com/zmkfirmware
-        # - name: ergonautkb
-        #   url-base: https://github.com/ergonautkb
         - name: janpfischer
           url-base: https://github.com/janpfischer
-        # - name: Xeanloo # <--- add this
-        #   url-base: https://github.com/Xeanloo
+        - name: Xeanloo # <--- add this
+          url-base: https://github.com/Xeanloo
     projects:
         - name: zmk
           remote: zmkfirmware
           revision: main
           import: app/west.yml
-        # - name: ergonautkb-zmk-module
-        #   remote: ergonautkb
+        # - name: zmk-dongle-screen
+        #   remote: janpfischer
         #   revision: main
         - name: zmk-dongle-screen
-          remote: janpfischer
+          remote: Xeanloo
           revision: main
         # - name: prospector-zmk-module
         #   remote: Xeanloo
