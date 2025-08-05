@@ -4,7 +4,7 @@ manifest:
           url-base: https://github.com/zmkfirmware
         - name: janpfischer
           url-base: https://github.com/janpfischer
-        - name: Xeanloo # <--- add this
+        - name: Xeanloo
           url-base: https://github.com/Xeanloo
     projects:
         - name: zmk
@@ -16,7 +16,7 @@ manifest:
         #   revision: main
         - name: zmk-dongle-screen
           remote: Xeanloo
-          revision: main
+          revision: last_words
         # - name: prospector-zmk-module
         #   remote: Xeanloo
         #   revision: main
